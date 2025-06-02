@@ -1,0 +1,36 @@
+<!-- Author: Bibek Itani
+Date: 2025-06-01
+Class: Advanced Programming Languages (MSCS-632-A01)
+Professor: Dr. 
+Description: This HTML file serves as the main interface for the Employee Schedule Manager application. It allows users to input employee preferences and generate a weekly schedule. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Schedule Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Schedule Manager</h1>
+        <div class="input-section">
+            <h2></h2>
+            <div id="employee-inputs">
+                </div>
+            <button id="addEmployeeBtn">Add Employee</button>
+            <button id="submitPreferencesBtn">Generate Schedule</button>
+        </div>
+
+        <div class="output-section">
+            <h2>Weekly Schedule</h2>
+            <div id="scheduleOutput">
+                <p>Please provide details above to generate a schedule!</p>
+            </div>
+            <button id="fetchScheduleBtn" style="display: none;">Refresh Schedule</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
